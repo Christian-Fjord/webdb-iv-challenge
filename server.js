@@ -2,7 +2,7 @@ const express = require('express');
 const helmet = require('helmet');
 const knex = require('knex');
 
-const dbConfig = require('./knexfile.js');
+const dishesRouter = require('./dishes/dishes-router');
 
 
 const server = express();
