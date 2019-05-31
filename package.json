@@ -1,18 +1,21 @@
 {
-  "name": "webdv-iv-project" ,
-  "version": "1.0.0" ,
-  "main": "index.js" ,
-  "repository": "blank" ,
-  "author": "Christian Ford" ,
-
+  "name": "webdv-iv-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "blank",
+  "author": "Christian Ford",
   "scripts": {
-    "server": "nodemon index.js" ,
+    "server": "nodemon index.js",
     "start": "node index.s"
   },
-
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "knex": "^0.17.0",
+    "sqlite": "^3.0.3"
+  },
+  "devDependencies": {
+    "knex-cleaner": "^1.1.4",
+    "nodemon": "^1.19.1"
   }
-
-
 }
