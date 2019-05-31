@@ -1,16 +1,7 @@
-const express = require('express');
-const helmet = require('helmet');
-const knex = require('knex');
+const server = require('./server.js');
 
-const dbConfig = require('./knexfile.js');
+const port = 9393;
 
-const db = knex(dbConfig.development);
-
-const server = express();
-
-server.use(express.json());
-
-// Test
-server.get('/', (req, res) => {
-  res.send('The api is working.');
-});
+server.listen(port, () => {
+  console.log('Port 9393 is now active.');
+})
