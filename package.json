@@ -1,0 +1,18 @@
+{
+  "name": "webdv-iv-project" ,
+  "version": "1.0.0" ,
+  "main": "index.js" ,
+  "repository": "blank" ,
+  "author": "Christian Ford" ,
+
+  "scripts": {
+    "server": "nodemon index.js" ,
+    "start": "node index.s"
+  },
+
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+
+
+}
